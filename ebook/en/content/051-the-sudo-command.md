@@ -25,7 +25,7 @@ sudo [-OPTION] command
 |`-u`|The -u (user) option causes sudo to run the specified command as a user other than root. To specify a uid instead of a username, use #uid.|
 |`-s`|The -s (shell) option runs the shell specified by the SHELL environment variable if it's set or the shell as specified in the file passwd.|
 |`--`|The -- flag indicates that sudo should stop processing command line arguments. It is most useful in conjunction with the -s flag.|
-
+|`-i`|The -i flag starts an interactive login shell as another user — root by default.|
 ## Examples
 This command switches your command prompt to the BASH shell as a root user:
 
